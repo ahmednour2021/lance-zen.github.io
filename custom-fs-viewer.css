@@ -256,7 +256,7 @@
   border: 3px solid transparent;
   background-clip: content-box;
   border-color: #d5d5d5;
-  background-color: white; }
+  background-color: red; }
 
 .pdfViewer.removePageBorders .page {
   margin: 0px auto 10px auto;
