@@ -2,7 +2,7 @@
   background: #FFFFFF;
 }
 
-#indicatorWrapper, button#download , #scaleSelectContainer, .indicatorWrapper, #numPages, #secondaryToolbarToggle, #viewBookmark {
+#indicatorWrapper, button#download , #scaleSelectContainer, .indicatorWrapper, #numPages, #secondaryToolbarToggle, #viewBookmark, #previous, #next {
 display: none;
 visibility: hidden;
 }
