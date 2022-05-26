@@ -2,12 +2,11 @@
   background: #FFFFFF;
 }
 
-#indicatorWrapper, #download {
+#indicatorWrapper, button#download , #toolbarViewerRight {
 display: none;
 visibility: hidden;
 }
-
-.splitToolbarButton, .indicatorWrapper {
+ .indicatorWrapper {
 display: none;
 visibility: hidden;
 }
