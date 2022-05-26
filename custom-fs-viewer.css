@@ -7,7 +7,7 @@ display: none;
 visibility: hidden;
 }
 
-#splitToolbarButton {
+.splitToolbarButton {
 display: none;
 visibility: hidden;
 }
