@@ -2,12 +2,12 @@
   background: #FFFFFF;
 }
 
-#indicatorWrapper, #splitToolbarButton{
+#indicatorWrapper {
 display: none;
 visibility: hidden;
 }
 
-#splitToolbarButton{
+#splitToolbarButton {
 display: none;
 visibility: hidden;
 }
