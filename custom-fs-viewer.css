@@ -6,3 +6,7 @@
 display: none;
 visibility: hidden;
 }
+
+svg {
+stroke: black;
+}
