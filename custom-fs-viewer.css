@@ -13,10 +13,11 @@ svg {
 
 #viewFind {
 overflow: auto; 
-position: absolute; 
+position: absolute !important; 
 right: 16px;
 }
 
 .splitToolbarButton {
-margin-right: 60px;
+margin-right: 60px !important;
 }
+
