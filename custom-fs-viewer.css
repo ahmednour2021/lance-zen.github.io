@@ -1,7 +1,13 @@
 #toolbarContainer {
   background: #FFFFFF;
 }
+
 #indicatorWrapper, #splitToolbarButton{
+display: none;
+visibility: hidden;
+}
+
+#splitToolbarButton{
 display: none;
 visibility: hidden;
 }
