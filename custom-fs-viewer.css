@@ -2,7 +2,7 @@
   background: #FFFFFF;
 }
 
-#indicatorWrapper, button#download , #toolbarViewerRight, #scaleSelectContainer, .indicatorWrapper, .numPages,.splitToolbarButton {
+#indicatorWrapper, button#download , #scaleSelectContainer, .indicatorWrapper, .numPages,.splitToolbarButton {
 display: none;
 visibility: hidden;
 }
