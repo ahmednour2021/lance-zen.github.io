@@ -5,7 +5,7 @@
   background: #FFFFFF;
 }
 
-button#download , #scaleSelectContainer, #numPages, #secondaryToolbarToggle, #viewBookmark, #previous, #next {
+button#download , #scaleSelectContainer, #numPages, #secondaryToolbarToggle, #viewBookmark, #previous, #next, #toolbarSidebar {
 display: none;
 visibility: hidden;
 }
@@ -100,4 +100,10 @@ color: black;
 
 #toolbarContainer {
 box-shadow: none;
+}
+
+#sidebarContent {
+margin-top: -60px;
+    background-color: #EDEDED;
+    box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
 }
