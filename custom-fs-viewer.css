@@ -40,3 +40,8 @@ color: black;
 checkbox {
 border-color: black;
 }
+
+.doorHanger:after, .doorHanger:before, .doorHangerRight:after, .doorHangerRight:before { 
+display: none;
+visibility: hidden;
+}
