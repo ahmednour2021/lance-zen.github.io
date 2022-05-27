@@ -1,46 +1,56 @@
-::-webkit-input-placeholder { 
-    color:    black;
-}
-#toolbarContainer {
-  background: #FFFFFF;
+::-webkit-input-placeholder {
+  color: black;
 }
 
-button#download , #scaleSelectContainer, #numPages, #secondaryToolbarToggle, #viewBookmark, #previous, #next, #toolbarSidebar {
-display: none;
-visibility: hidden;
+#toolbarContainer {
+  background: #FFFFFF;
+  box-shadow: none !important;
+}
+
+button#download,
+#scaleSelectContainer,
+#numPages,
+#secondaryToolbarToggle,
+#viewBookmark,
+#previous,
+#next,
+#toolbarSidebar {
+  display: none;
+  visibility: hidden;
 }
 
 svg {
-    filter: invert(8%) sepia(100%) saturate(6481%) hue-rotate(246deg) brightness(0%) contrast(143%); 
+  filter: invert(8%) sepia(100%) saturate(6481%) hue-rotate(246deg) brightness(0%) contrast(143%);
 }
 
-#toolbarViewerLeft  .indicatorWrapper {
-display: none;
-visibility: hidden;
+#toolbarViewerLeft .indicatorWrapper {
+  display: none;
+  visibility: hidden;
 }
 
 #viewFind {
-overflow: auto; 
-position: absolute !important; 
-right: 16px;
-z-index: 1;
+  overflow: auto;
+  position: absolute !important;
+  right: 16px;
+  z-index: 1;
 }
 
 #toolbarViewerMiddle .splitToolbarButton {
-margin-right: 60px !important;
+  margin-right: 60px !important;
 }
 
 #findbar {
   right: 16px;
-    left: auto;
-    background: white;
-    border: none;
-    box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
-    border-radius: 8px;
+  left: auto;
+  background: white;
+  border: none;
+  box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
+  border-radius: 8px;
 }
 
-#findInput , .toolbarLabel {
-color: black;
+#findInput,
+.toolbarLabel {
+  color: black;
 }
 
 
@@ -49,7 +59,7 @@ input[type="checkbox"] {
   visibility: hidden;
 }
 
-input[type="checkbox"] + label:before {
+input[type="checkbox"]+label:before {
   border: 1px solid black;
   content: "\00a0";
   display: inline-block;
@@ -61,63 +71,71 @@ input[type="checkbox"] + label:before {
   width: 16px;
   border-radius: 3px;
 }
-input[type="checkbox"]:checked + label:before {
+
+input[type="checkbox"]:checked+label:before {
   background: black;
   color: white;
   content: "\2713";
   text-align: center;
 }
-input[type="checkbox"]:checked + label:after {
+
+input[type="checkbox"]:checked+label:after {
   font-weight: regular;
 }
 
 
 
-.doorHanger:after, .doorHanger:before, .doorHangerRight:after, .doorHangerRight:before { 
-display: none;
-visibility: hidden;
+.doorHanger:after,
+.doorHanger:before,
+.doorHangerRight:after,
+.doorHangerRight:before {
+  display: none;
+  visibility: hidden;
 }
 
 
 .toolbarField:focus {
-    background-color: white;
-    border-color: #095F6D;
-}
-#findInput.notFound {
-    background-color: white;
-    border-color: #FF2020;
-}
-#findMsg {
-color:  #FF2020;
-}
-#findResultsCount {
-color: black;
-}
-.toolbarField {
- background-color: white;
-    border-color: black;
+  background-color: white;
+  border-color: #095F6D;
 }
 
-#toolbarContainer {
-box-shadow: none;
+#findInput.notFound {
+  background-color: white;
+  border-color: #FF2020;
 }
+
+#findMsg {
+  color: #FF2020;
+}
+
+#findResultsCount {
+  color: black;
+}
+
+.toolbarField {
+  background-color: white;
+  border-color: black;
+}
+
+
 
 #sidebarContent {
-margin-top: -60px;
-    background-color: #EDEDED;
-    box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
+  margin-top: -60px;
+  background-color: #EDEDED;
+  box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
 }
 
-.thumbnailImage, .thumbnailSelectionRing {
-border: none !important;
-box-shadow: none !important;
+.thumbnailImage,
+.thumbnailSelectionRing {
+  border: none !important;
+  box-shadow: none !important;
 }
 
-.thumbnail.selected > .thumbnailSelectionRing >  #thumbnail1 {
-border: 2px solid black !important;
+.thumbnail.selected>.thumbnailSelectionRing>.thumbnailImage {
+  border: 2px solid black !important;
 }
+
 .toolbarButton.toggled {
-border: 1px solid black !important;
-background-color: white;
+  border: 1px solid black !important;
+  background-color: white;
 }
-
