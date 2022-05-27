@@ -97,3 +97,7 @@ color: black;
  background-color: white;
     border-color: black;
 }
+
+#toolbarContainer {
+box-shadow: none;
+}
