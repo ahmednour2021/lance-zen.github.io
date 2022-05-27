@@ -113,7 +113,7 @@ border: none !important;
 box-shadow: none !important;
 }
 
-.thumbnail.selected .thumbnailSelectionRing #thumbnail1 {
+#thumbnailView .thumbnail.selected .thumbnailSelectionRing #thumbnail1 {
 border: 2px solid black !important;
 }
 .toolbarButton.toggled {
