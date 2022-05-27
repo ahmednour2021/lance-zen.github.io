@@ -45,26 +45,30 @@ color: black;
 
 
 
-input[type=checkbox] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border: 1px solid black;
-  outline: none;
-  border-radius: 3px;
- 
+input[type="checkbox"] {
+  visibility: hidden;
 }
 
-input[type=checkbox]:checked+.lbl::before,
-input[type=radio]:checked+.lbl::before {
-		display: inline-block;
-		content: '\f00c';
-		background-color: #F5F8FC;
-		border-color: #adb8c0;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+input[type="checkbox"] + label:before {
+  border: 1px solid black;
+  content: "\00a0";
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  height: 16px;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  vertical-align: top;
+  width: 16px;
+  border-radius: 3px;
+}
+input[type="checkbox"]:checked + label:before {
+  background: black;
+  color: white;
+  content: "\2713";
+  text-align: center;
+}
+input[type="checkbox"]:checked + label:after {
+  font-weight: regular;
 }
 
 
