@@ -48,6 +48,12 @@ color: black;
 input[type=checkbox] {
 	accent-color: black;
 }
+input[type="checkbox"]+span:before {
+  content: '';
+  border: 1px solid red;
+  border-radius: 3px;
+  display: inline-block;
+}
 
 
 
