@@ -23,7 +23,7 @@ right: 16px;
 z-index: 1;
 }
 
-.splitToolbarButton {
+#toolbarViewerMiddle .splitToolbarButton {
 margin-right: 60px !important;
 }
 
