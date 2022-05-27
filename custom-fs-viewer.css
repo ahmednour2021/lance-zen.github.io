@@ -2,7 +2,7 @@
   background: #FFFFFF;
 }
 
-#indicatorWrapper, button#download , #scaleSelectContainer, .indicatorWrapper, #numPages, #secondaryToolbarToggle, #viewBookmark, #previous, #next {
+#findbarInputContainer .indicatorWrapper , button#download , #scaleSelectContainer, #numPages, #secondaryToolbarToggle, #viewBookmark, #previous, #next {
 display: none;
 visibility: hidden;
 }
@@ -15,6 +15,7 @@ svg {
 overflow: auto; 
 position: absolute !important; 
 right: 16px;
+z-index: 1;
 }
 
 .splitToolbarButton {
