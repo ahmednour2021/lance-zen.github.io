@@ -77,3 +77,19 @@ input[type="checkbox"]:checked + label:after {
 display: none;
 visibility: hidden;
 }
+
+
+.toolbarField:focus {
+    background-color: white;
+    border-color: #095F6D;
+}
+#findInput.notFound {
+    background-color: white;
+    border-color: #FF2020;
+}
+#findMsg {
+color:  #FF2020;
+}
+#findResultsCount {
+color: black;
+}
