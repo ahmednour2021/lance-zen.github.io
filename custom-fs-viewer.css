@@ -116,5 +116,8 @@ box-shadow: none !important;
 .thumbnail selected .thumbnailSelectionRing #thumbnail1 {
 border: 2px solid black !important;
 }
-
+.toolbarButton.toggled {
+border: 1px solid black !important;
+background-color: white;
+}
 
