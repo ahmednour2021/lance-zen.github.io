@@ -27,3 +27,15 @@ z-index: 1;
 margin-right: 60px !important;
 }
 
+#findbar {
+    right: 16px;
+    left: auto;
+}
+
+#findInput {
+color: black;
+}
+
+checkbox {
+border-color: black;
+}
