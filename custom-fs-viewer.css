@@ -93,3 +93,7 @@ color:  #FF2020;
 #findResultsCount {
 color: black;
 }
+.toolbarField {
+ background-color: white;
+    border-color: black;
+}
