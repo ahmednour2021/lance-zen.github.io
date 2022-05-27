@@ -30,6 +30,7 @@ margin-right: 60px !important;
 #findbar {
     right: 16px;
     left: auto;
+    background: white;
 }
 
 #findInput , .toolbarLabel {
