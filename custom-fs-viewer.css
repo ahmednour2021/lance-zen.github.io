@@ -104,6 +104,7 @@ input[type="checkbox"]:checked+label:before {
 }
 #findResultsCount {
   color: white;
+  background-color: #1E1E1E;
 }
 .toolbarField {
   background-color: black;
