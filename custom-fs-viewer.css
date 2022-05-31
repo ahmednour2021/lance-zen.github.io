@@ -23,6 +23,29 @@ input[type="checkbox"]:checked+label:before {
   background: white;
 }
 
+.toolbarField:focus {
+  background-color: white;
+  border-color: #095F6D;
+}
+
+#findInput.notFound {
+  background-color: white;
+  border-color: #FF2020;
+}
+
+#findMsg {
+  color: #FF2020;
+}
+#findResultsCount {
+  color: black;
+}
+
+.toolbarField {
+  background-color: white;
+  border-color: black;
+}
+
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,7 +78,30 @@ input[type="checkbox"]:checked+label:before {
   background: black;
 }
 
+.toolbarField:focus {
+  background-color: black;
+  border-color: #CFF9FA;
 }
+#findInput.notFound {
+  background-color: black;
+  border-color: #FCA48E;
+}
+
+#findMsg {
+  color: #FCA48E;
+}
+#findResultsCount {
+  color: white;
+}
+.toolbarField {
+  background-color: black;
+  border-color: white;
+}
+
+
+}
+
+
 
 #toolbarContainer { 
   box-shadow: none !important;
@@ -141,32 +187,6 @@ input[type="checkbox"]:checked+label:after {
   display: none;
   visibility: hidden;
 }
-
-
-.toolbarField:focus {
-  background-color: white;
-  border-color: #095F6D;
-}
-
-#findInput.notFound {
-  background-color: white;
-  border-color: #FF2020;
-}
-
-#findMsg {
-  color: #FF2020;
-}
-
-#findResultsCount {
-  color: black;
-}
-
-.toolbarField {
-  background-color: white;
-  border-color: black;
-}
-
-
 
 #sidebarContent {
   margin-top: -60px;
