@@ -44,7 +44,19 @@ input[type="checkbox"]:checked+label:before {
   background-color: white;
   border-color: black;
 }
+.toolbarButton.toggled {
+  border: 1px solid black !important;
+  background-color: white;
+}
 
+#sidebarContent {
+  margin-top: -60px;
+  background-color: #EDEDED;
+  box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
+}
+.thumbnail.selected>.thumbnailSelectionRing>.thumbnailImage {
+  border: 2px solid black !important;
+}
 
 }
 
@@ -97,8 +109,19 @@ input[type="checkbox"]:checked+label:before {
   background-color: black;
   border-color: white;
 }
+.toolbarButton.toggled {
+  border: 1px solid white !important;
+  background-color: black;
+}
 
-
+#sidebarContent {
+  margin-top: -60px;
+  background-color: #1E1E1E;
+  box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
+}
+.thumbnail.selected>.thumbnailSelectionRing>.thumbnailImage {
+  border: none;
+}
 }
 
 
@@ -188,23 +211,12 @@ input[type="checkbox"]:checked+label:after {
   visibility: hidden;
 }
 
-#sidebarContent {
-  margin-top: -60px;
-  background-color: #EDEDED;
-  box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
-}
-
 .thumbnailImage,
 .thumbnailSelectionRing {
   border: none !important;
   box-shadow: none !important;
 }
 
-.thumbnail.selected>.thumbnailSelectionRing>.thumbnailImage {
-  border: 2px solid black !important;
-}
 
-.toolbarButton.toggled {
-  border: 1px solid black !important;
-  background-color: white;
-}
+
+
