@@ -1,11 +1,24 @@
+@media (prefers-color-scheme: dark) {
+  #toolbarContainer {
+  background:red;
+  box-shadow: none !important;
+}
+}
+
+@media (prefers-color-scheme: light) {
+  #toolbarContainer {
+  background: #FFFFFF;
+  box-shadow: none !important;
+}
+}
+
+
+
 ::-webkit-input-placeholder {
   color: black;
 }
 
-#toolbarContainer {
-  background: #FFFFFF;
-  box-shadow: none !important;
-}
+
 
 button#download,
 #scaleSelectContainer,
@@ -52,8 +65,6 @@ svg {
 .toolbarLabel {
   color: black;
 }
-
-
 
 input[type="checkbox"] {
   visibility: hidden;
