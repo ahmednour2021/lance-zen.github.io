@@ -46,7 +46,6 @@ input[type="checkbox"]:checked+label:before {
 }
 .toolbarButton.toggled {
   border: none !important;
-  background-color: white;
 }
 
 #sidebarContent {
