@@ -45,7 +45,7 @@ input[type="checkbox"]:checked+label:before {
   border-color: black;
 }
 .toolbarButton.toggled {
-  border: 1px solid black !important;
+  border: none !important;
   background-color: white;
 }
 
@@ -111,7 +111,7 @@ input[type="checkbox"]:checked+label:before {
   border-color: white;
 }
 .toolbarButton.toggled {
-  border: 1px solid white !important;
+  border: none !important;
   background-color: black;
 }
 
