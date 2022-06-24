@@ -127,7 +127,8 @@
   
   
   #toolbarContainer { 
-    box-shadow: 0px 4px 16px 2px rgb(0 0 0 / 12%);
+    box-shadow: none !important;
+      border-bottom: 5px solid #BCBCBC;
   }
   
   #sidebarToggle {
@@ -219,7 +220,7 @@
   
   
   
-  .pdfViewer.page { 
+  #pdfViewer .page { 
   margin-top: 10px !important;
   }
   
