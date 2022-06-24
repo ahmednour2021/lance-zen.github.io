@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: light) {
     #toolbarContainer {
     background: #FFFFFF;
-    border-bottom: 2px solid #BCBCBC;
+    border-bottom: 1px solid #BCBCBC;
   }
   ::-webkit-input-placeholder {
     color: black;
@@ -63,7 +63,7 @@
   @media (prefers-color-scheme: dark) {
     #toolbarContainer {
     background:#1E1E1E;
-    border-bottom: 2px solid #CFCFCF;
+    border-bottom: 1px solid #BCBCBC;
   }
   body {
     background:#1E1E1E;
