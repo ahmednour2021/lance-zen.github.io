@@ -1,6 +1,7 @@
 @media (prefers-color-scheme: light) {
     #toolbarContainer {
     background: #FFFFFF;
+    border-bottom: 3px solid #BCBCBC;
   }
   ::-webkit-input-placeholder {
     color: black;
@@ -62,6 +63,7 @@
   @media (prefers-color-scheme: dark) {
     #toolbarContainer {
     background:#1E1E1E;
+    border-bottom: 3px solid #CFCFCF;
   }
   body {
     background:#1E1E1E;
@@ -125,12 +127,10 @@
   }
   
   
-  
   #toolbarContainer { 
     box-shadow: none !important;
-      border-bottom: 3px solid #BCBCBC;
   }
-  
+
   #sidebarToggle {
   margin-left: 16px;
   }
