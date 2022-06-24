@@ -63,7 +63,7 @@
   @media (prefers-color-scheme: dark) {
     #toolbarContainer {
     background:#1E1E1E;
-    border-bottom: 1px solid #BCBCBC;
+    border-bottom: 1px solid #333333;
   }
   body {
     background:#1E1E1E;
