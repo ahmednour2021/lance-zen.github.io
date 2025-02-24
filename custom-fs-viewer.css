@@ -173,7 +173,6 @@ button#download,
 
 #viewFind {
   overflow: auto;
-  position: absolute !important;
   right: 16px;
   z-index: 1;
 }
