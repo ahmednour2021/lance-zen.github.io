@@ -171,12 +171,6 @@ button#download,
   visibility: hidden;
 }
 
-#viewFind {
-  overflow: auto;
-  right: 16px;
-  z-index: 1;
-}
-
 #toolbarViewerMiddle .splitToolbarButton {
   margin-right: 60px !important;
 }
